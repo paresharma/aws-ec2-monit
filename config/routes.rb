@@ -4,4 +4,6 @@ Rails.application.routes.draw do
       resources :status, only: [:index, :create]
     end
   end
+
+  resources :dashboard, only: :index
 end
