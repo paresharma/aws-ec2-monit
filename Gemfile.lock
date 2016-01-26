@@ -39,6 +39,7 @@ GEM
     arel (6.0.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bson (4.0.1)
     builder (3.2.2)
     byebug (8.2.1)
     coffee-rails (4.1.1)
@@ -70,6 +71,8 @@ GEM
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
+    mongo (2.2.2)
+      bson (~> 4.0)
     multi_json (1.11.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -141,10 +144,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bson
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  mongo
   rails (= 4.2.5)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
